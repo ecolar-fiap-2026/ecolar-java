@@ -1,0 +1,10 @@
+target/
+bin/
+.env
+config-local.properties
+*.log
+.idea/
+.classpath
+.project
+.settings/
+deploy-links.properties

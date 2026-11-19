@@ -1,0 +1,6 @@
+{
+  "testes_principais": 35,
+  "falhas": 0,
+  "erros": 0,
+  "flask_real": "HTTP real testado; dois modelos carregados do pacote EcoLar IA; JDBC em H2"
+}

@@ -1,0 +1,42 @@
+server:
+  port: ${PORT:8080}
+  forward-headers-strategy: framework
+  error:
+    include-message: never
+    include-stacktrace: never
+spring:
+  application:
+    name: ecolar-api
+  datasource:
+    url: ${ORACLE_URL}
+    username: ${ORACLE_USER}
+    password: ${ORACLE_PASSWORD}
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      maximum-pool-size: 4
+      minimum-idle: 0
+      connection-timeout: 8000
+      validation-timeout: 3000
+      initialization-fail-timeout: -1
+      data-source-properties:
+        oracle.net.CONNECT_TIMEOUT: 5000
+        oracle.jdbc.ReadTimeout: 15000
+  sql:
+    init:
+      mode: never
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      accept-float-as-int: false
+    serialization:
+      write-dates-as-timestamps: false
+  mvc:
+    problemdetails:
+      enabled: false
+ecolar:
+  cors-origins: ${CORS_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+  ia-url: ${IA_BASE_URL:http://127.0.0.1:5000}
+logging:
+  level:
+    com.zaxxer.hikari: WARN
+    org.springframework.jdbc: WARN

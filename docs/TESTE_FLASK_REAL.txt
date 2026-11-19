@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: br.com.fiap.ecolar.IaRealIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.29 s -- in br.com.fiap.ecolar.IaRealIntegrationTest
+
+Teste executado com Flask real e modelos exportados da entrega EcoLar IA.
+Persistência: H2 em modo Oracle; não acessou a conta FIAP.
+
+INTEGRACAO_REAL_FLASK: previsao={"cdPrevisao":1000,"cdResidencia":1000,"dtReferencia":"2010-03-07","dtAlvo":"2010-03-08","vlPrevistoKwh":28.01,"dsModelo":"ecolar-ia-1.0/random-forest","dtGeracao":"2026-11-16T21:32:45","dsOrigem":"MODELO","avisos":["Modelo demonstrativo treinado em uma casa francesa (2006-2010), sem validação em residências brasileiras. Não garante economia."]}; analise={"cdAnalise":1000,"cdResidencia":1000,"dtInicio":"2010-03-01","dtFim":"2010-03-07","cdGrupo":0,"dsInterpretacao":"Menor intensidade relativa (1/2). Comparação com semanas da casa de referência; não identifica desperdício nem causa.","dsModelo":"ecolar-ia-1.0/kmeans","dsOrigem":"MODELO","avisos":["Modelo demonstrativo treinado em uma casa francesa (2006-2010), sem validação em residências brasileiras. Não garante economia."]}

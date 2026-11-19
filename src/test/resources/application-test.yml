@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:ecolar;MODE=Oracle;DB_CLOSE_DELAY=-1;LOCK_TIMEOUT=10000
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+    hikari:
+      maximum-pool-size: 8
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema-test.sql
+ecolar:
+  ia-url: http://127.0.0.1:5000
+logging:
+  level:
+    root: WARN

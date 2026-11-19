@@ -1,0 +1,11 @@
+FIAP — Global Solution 2026/2 — CitizenTech
+Disciplina: Domain Driven Design Using Java
+Projeto: EcoLar — API JDBC com Oracle
+Turma: 1TDSPV
+Yan Almeida — RM568814
+Vinicius Pacheco Ruiz — RM571109
+Diego Barbosa — RM568829
+
+Confirmar identificação oficial antes do Portal. Código preparado com apoio de IA,
+conforme docs/USO_DE_IA.md. Todos devem executar e compreender os arquivos.
+Publicação, integração com o React e vídeo precisam de links/evidências reais.

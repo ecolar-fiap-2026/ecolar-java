@@ -1,0 +1,8 @@
+target
+bin
+.git
+.env
+config-local.properties
+docs
+*.zip
+deploy-links.properties
